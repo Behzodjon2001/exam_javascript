@@ -1,6 +1,8 @@
 let btn = document.getElementById("talaba_qoshish")
+let i3 = 0;
 
 btn.addEventListener("click", function() {
+    i3++;
     let fullName = document.getElementById("full_name").value
     let kursi = document.getElementById("kursi").value
     let bahosi = document.getElementById("bahosi").value
@@ -25,17 +27,17 @@ btn.addEventListener("click", function() {
         div.classList.add("my-div6");
         document.body.append(div);
         let tbody = document.getElementById("tbody");
+        // let id = document.getElementById("id_n").value
 
 
         console.log("der7");
         console.log(students);
-        let i = 0
         for (const item in students) {
-            i++;
-            // if (ttr == i) {
-            // i++
+
+            let id = students[item].i;
+            id++
             tbody.innerHTML += ` <tr>
-            <td class="ttr">${i}</td>
+            <td class="ttr">${i3}</td>
             <td>${students[item].fullName}</td>
             <td>${students[item].kursi}</td>
             <td>${students[item].bahosi}</td>
