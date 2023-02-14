@@ -40,7 +40,7 @@ btn.addEventListener("click", function() {
             <td>${students[item].kursi}</td>
             <td>${students[item].bahosi}</td>
           </tr>`;
-            let trr = document.getElementById("ttr").value;
+            // let trr = document.getElementById("ttr").value;
 
             // }
 
