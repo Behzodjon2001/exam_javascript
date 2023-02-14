@@ -4,7 +4,16 @@
 }
 
 .style_select {
-    width: 400px;
+    width: 336px;
     height: 35px;
     margin: 10px 0;
+}
+
+.form-label {
+    margin: 20px;
+    width: 400px;
+}
+
+.table-striped {
+    margin: 30px 5px;
 }
